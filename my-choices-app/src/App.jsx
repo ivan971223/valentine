@@ -119,11 +119,11 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<HomePage/>}/>
-                <Route path="/trip" element={<Trip />} />
-                <Route path="/dinner" element={<Dinner />} />
-                <Route path="/nightactivity" element={<NightActivity />} />
-                <Route path="/final" element={<Final />} />
+                <Route path="/valentine" element={<HomePage/>}/>
+                <Route path="/valentine/trip" element={<Trip />} />
+                <Route path="/valentine/dinner" element={<Dinner />} />
+                <Route path="/valentine/nightactivity" element={<NightActivity />} />
+                <Route path="/valentine/final" element={<Final />} />
             </Routes>
         </Router>
     );
