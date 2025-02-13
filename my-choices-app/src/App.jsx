@@ -120,10 +120,10 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/valentine" element={<HomePage/>}/>
-                <Route path="/valentine/trip" element={<Trip />} />
-                <Route path="/valentine/dinner" element={<Dinner />} />
-                <Route path="/valentine/nightactivity" element={<NightActivity />} />
-                <Route path="/valentine/final" element={<Final />} />
+                <Route path="/trip" element={<Trip />} />
+                <Route path="/dinner" element={<Dinner />} />
+                <Route path="/nightactivity" element={<NightActivity />} />
+                <Route path="/final" element={<Final />} />
             </Routes>
         </Router>
     );
